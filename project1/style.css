@@ -1,0 +1,37 @@
+nav{
+    border: 2px solid #000000;
+    display: flex;
+    background-color: #000000;
+    flex-direction: column;
+    color: azure;
+
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+   
+}
+a{
+    color: azure;
+}
+nav ul li{
+    display: inline;
+    padding: 10px;
+    flex-direction: row;
+    justify-content: space-around;
+    border: 10px;
+   
+   
+    
+}
+body{
+   background-image:url('../caffe.jpg') ;
+  
+   
+ background-repeat: no-repeat;
+ background-size: 1400px 600px;
+}
+nav ul li:active{
+    background-color: rgb(127, 255, 133);
+  
+}
+ 
+   
